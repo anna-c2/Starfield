@@ -42,7 +42,7 @@ class Particles
     myX = 300;
     myY = 300;
     mySize = (int)(Math.random()*5)+8;
-    mySpeed = ((mySize*2)/2);//2;
+    mySpeed = mySize*1.5;
    
       myColor = color(#D87FD0);
   }
@@ -69,10 +69,8 @@ class Particles
 }
 
 class Copycat extends Particles{
-  //int mySpeedd;
   Copycat(){
     super();
-    //mySpeedd = 2;
     myColor = color(#9C59B4);//#B1EAF7);
   }
    void move()
@@ -93,7 +91,7 @@ class OddBallParticles extends Particles{
   OddBallParticles(){
     super();
     mySize = 15;//(int)(Math.random()*5)+8;
-    mySpeed = 3;
+    mySpeed = 5;
     myColor = color(255);
   }
   void move()

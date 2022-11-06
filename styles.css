@@ -1,19 +1,17 @@
 
 body {
-    background-color: rgb(174, 209, 203);
+    background-color: rgb(87, 158, 194);/*174, 209, 203);*/
     color: rgb(255);
     font-family: "Open Sans", sans-serif;
     text-align: center;
 }
 
 #content {
-	/*
+
     display: block;
     margin-left: auto;
     margin-right: auto;
-	*/
-	padding: 10px;
-	border: 5px double #61527a;
+	
 }
 
 header {
